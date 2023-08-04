@@ -1,0 +1,86 @@
+* {
+    font-family: back to back demo;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #eee;
+}
+.navbar{
+    margin-bottom: 0;
+}
+
+/* Home */
+.container {
+    background-image: url(./Images/Mountains.jpg);
+    width: auto;
+}
+h1 {
+    font-weight: bold;
+}
+strong {
+    color: aliceblue;
+}
+h3, mark {
+    font-family: Chalkduster;
+}
+.pic {
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 2px black;
+}
+hr {
+    width: 25%;
+    padding-bottom: 60px;
+}
+mark {
+    opacity: .78;
+    border-radius: 25%;
+}
+
+/* Navigation Bar */
+/* Hello! */
+.navbar-heading {
+    font-family: Great Vibes;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.navbar,ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.nav li {
+    margin-left: 2.5rem;
+}
+.nav navbar-nav ul li a{
+    font-size: 1.57rem;
+    font-weight: 600;
+    letter-spacing: 0.04;
+}
+.navbar {
+    display: block;
+}
+/* hover and active */
+.navbar-heading:hover, a:hover, .navbar a.active
+{
+    color: #b977f3;
+    border-bottom: .2rem solid #b977f3;
+    padding: .5rem 0;
+
+}
+
+/* Add a background color to the top navigation */
+
+/* Style the links inside the navigation bar */
+
+.work h1 {
+    text-align: center;
+}
