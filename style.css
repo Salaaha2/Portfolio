@@ -1,9 +1,28 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
     font-family: back to back demo;
     list-style: none;
 }
 
+*::selection {
+    background-color: #b977f3;
+    color: black;
+}
+
+.container h1::selection, h3::selection {
+    color: white;
+}
+
 html {
+    font-size: 62.5%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -19,13 +38,13 @@ body {
     background-image: url(./Images/Mountains.jpg);
     width: auto;
 }
-h1 {
+.container h1 {
     font-weight: bold;
 }
 strong {
     color: aliceblue;
 }
-h3, mark {
+.container h3, mark {
     font-family: Chalkduster;
 }
 .pic {
@@ -33,11 +52,12 @@ h3, mark {
     border-radius: 100%;
     box-shadow: 5px 5px 2px black;
 }
-hr {
+.text-center hr {
     width: 25%;
     padding-bottom: 60px;
+    margin: auto;
 }
-mark {
+.container mark {
     opacity: .78;
     border-radius: 25%;
 }
