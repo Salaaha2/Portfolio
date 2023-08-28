@@ -20,7 +20,7 @@ h3::selection {
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 78.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -170,7 +170,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 35em;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .content h3,
@@ -274,7 +274,7 @@ h2 {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     /* min-width: 100px; */
     box-shadow: 0px 8px 16px px rgba(0,0,0,0.2);
   }
@@ -284,6 +284,7 @@ h2 {
     padding-bottom: 15px;
     z-index: 999;
   }
+
   
   /* .what {
     padding: 15px;
@@ -307,7 +308,19 @@ h2 {
   #work .mywork .content .tag:hover, #work p:hover {
     transform: translateX(5px);
   }
-
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
   /* Footer */
   #footer .box-container {
