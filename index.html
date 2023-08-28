@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome Icon -->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -28,59 +31,64 @@
     <nav class="navbar navbar-default mb-0">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="#" class="navbar-heading">Hello!</a>
+                <a class="navbar-heading">Hello!</a>
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <!-- <li><a href="#portfolio">PORTFOLIO</a></li> -->
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#work">WORKS</a></li>
+                <li><a href="#footer">CONTACT</a></li>
             </ul>
 
     </nav>
     </div>
 
     <!-- Home -->
-    <div class="container">
-        <!-- HOME TEXT -->
-        <h1>Hi There,<br>I'm Alykaa <strong><u>Salaah</u></strong></h1>
-        <div class="text-center ">
-            <h3>I am a Web Developer!</h3>
-            <img src="./Images/Portfolio.jpeg" alt="Portfolio Image of Alykaa" class="pic mx-auto">
-        </div>
+    <section id="home">
+        <div class="container">
+            <!-- HOME TEXT -->
+            <h1>Hi There,<br>I'm Alykaa <strong><u>Salaah</u></strong></h1>
+            <div class="text-center ">
+                <h3>I am a Web Developer!</h3>
+                <div class="image">
+                    <img src="./Images/Portfolio.jpeg" alt="Portfolio Image of Alykaa" class="pic">
+                </div>
+            </div>
 
-        <hr>
-    </div>
-    
+            <hr>
+        </div>
+    </section>
+
     <!-- about section starts -->
-    <section class="about" id="about">
+    <section id="about">
         <h2 class="heading">About <span>Me</span></h2>
         <div class="row">
             <div class="image">
-                <img draggable="false" alt="tilt" src="./Images/Portfolio2.jpeg" alt="Image Of Alykaa Pt 2">
+                <img src="./Images/Portfolio2.jpeg">
             </div>
             <div class="content">
                 <h3>I'm Alykaa</h3>
                 <span class="tag">Web Developer</span>
 
                 <p>I am a Web Developer in Covington Kentucky. I am a Computer Science undergraduate from NKU.
-                    I am very passionate in the technology feild and want to develope my skills more in coding. I build websites using HTML5, CSS, Bootstrap, and soon Javascript! I have already farmiliar my skills with Python and Java. 
-                    I have worked in the Customer retial service for over 4 years and I recently started my career path as a federal employee as a TSA Officer. 
+                    I am very passionate in the technology feild and want to develope my skills more in coding. I build
+                    websites using HTML5, CSS, Bootstrap, and soon Javascript! I have already farmiliar my skills with
+                    Python and Java.
+                    I have worked in the Customer retial service for over 4 years and I recently started my career path
+                    as a federal employee as a TSA Officer.
                 </p>
                 <div class="box-container">
                     <div class="box">
                         <p><span> Email : </span>
-                        alykaasalaah@outlook.com</p>
+                            alykaasalaah@outlook.com</p>
                         <p><span> place : </span> Covington, Kentucky</p>
                     </div>
                 </div>
-
-                <div class="resumebtn">
-                    <a href="www.linkedin.com/in/alykaa-salaah-493b3814a" target="_blank" class="btn"><span>Resume</span>
-                    </a>
-                </div>
+                <form action="https://www.linkedin.com/in/alykaa-salaah-493b3814a/">
+                    <button class="btn">Resume</button>
+                </form>
 
 
 
@@ -91,7 +99,7 @@
     <!-- about section ends -->
 
     <!-- skills section -->
-    <section class="skills" id="skills">
+    <!-- <section class="skills" id="skills">
 
         <h2 class="heading">Skills & <span>Abilities</span></h2>
 
@@ -100,40 +108,49 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Skills section ends -->
 
 
     <!-- education section starts -->
     <section class="education" id="education">
 
-        <h1 class="heading"> My <span>Education</span></h1>
+        <h2 class="heading"> My <span>Education</span></h2>
 
-        <p class="quote">"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
+        <p class="quote">"Education is the passport to the future, for tomorrow belongs to those who prepare for it
+            today." <br>
             - Malcolm X
         </p>
         <div class="box-container">
 
             <div class="box">
-                <div class="image">
-                    <img draggable="false" src="/AboutMe/Holmes.jpg" alt="">
-                    <img draggable="false" src="/AboutMe/Griffin_Hall.jpg" alt="">
-                    <img draggable="false" src="./Images/KableAcadamy.jpg" alt="">
+                <div class="content">
+                    <h3>Certificate in Web Development</h3>
+                    <p>Kable Acadamey | KA</p>
+                    <h4>2023-2023 | Pursuing</h4>
+                    <div class="image">
+                        <img src="./Images/KableAcadamy.jpg" alt="">
+                    </div>
+
                 </div>
+
                 <div class="content">
                     <h3>Bachelor of Computer Science</h3>
                     <p>Northern Kentucky University | NKU</p>
                     <h4>2017-2025 | Pursuing</h4>
                 </div>
-            </div>
-
-            <div class="box">
                 <div class="image">
-                    <img draggable="false" src="/AboutMe/Griffin_Hall.jpg" alt="NKU's Department of Informatics">
+                    <img src="./Images/NKU.jpg" alt="NKU's Department of Informatics">
+                </div>
+
+                <div class="box">
                 </div>
                 <div class="content">
                     <h3>Holmes High School</h3>
                     <h4>2013-2017 | Completed</h4>
+                    <div class="image">
+                        <img src="./Images/Holmes.png" alt="">
+                    </div>
                 </div>
             </div>
 
@@ -151,27 +168,63 @@
     <section class="work" id="work">
         <h2 class="heading">My Works</h2>
 
-        <div class="box-container">
 
-            <div class="box tilt">
-                <img draggable="false" src="" alt="">
-                <div class="content">
-                    <div class="tag">
-                        <h3>Portfolio Website</h3>
-                    </div>
-                    <div class="desc">
+        <div class="mywork">
+            
+                <div class="box-container">
+                      
+                    <div class="content">
 
+                        <div class="tag">
+                            <div class="dropdown">
+                                <a href="https://salaaha2.github.io/aboutme/" class="btn btn-outline-light"><i
+                                        class="fas fa-address-card"></i> - ABOUT ME -</a>
+                                <div class="dropdown-content"><img src="./Images/Aboutme.png" width="300" height="200">
+                                    <div class="what">All About Me!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <details>
+                            <p>Hello! Click this link to learn more about me! The creator!</p>
+                        </details>
+
+                        <div class="tag">
+                            <div class="dropdown">
+                                <a href="https://salaaha2.github.io/ProjectLanding/">- PROJECT LANDING -</a>
+                                <div class="dropdown-content">
+                                    <img src="./Images/ProjectLanding.png" width="300" height="200"><div class="what">Welcome Blinks!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <details>
+                            <p>With the style of a popular K-pop band, I created a website welcoming new fans and
+                                introducing them to the band members and selling merch in support.</p>
+                        </details>
+
+                        <div class="tag">
+                        <div class="dropdown">
+                            <a href="https://salaaha2.github.io/MadLibs/">- MADLIBS -</a>
+                            <div class="dropdown-content">
+                                <img src="./Images/MadLibs.png" width="300" height="200">
+                                <div class="what">If I were Presedint</div>
+                            </div>
+                        </div>
+</div>
+<details>
+<p>I create a MadLibs story with the help of JavaScript, HTML, and CSS styling</p>
+</details>
                     </div>
-                </div>
+                </div> <!-- box-container -->
             </div>
         </div>
-        
+
+
 
     </section>
     <!-- Work Ends -->
 
     <!-- Contact -->
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
 
         <h2 class="heading">Get in <span>Touch</span></h2>
 
@@ -202,18 +255,20 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Contact Ends -->
 
 
     <!-- Footer -->
-    <secrion class="footer">
+    <secrion id="footer">
 
         <div class="box-container">
 
             <div class="box">
                 <h3>Alykaa's Portfolio</h3>
-                <p>Thank you for visiting my personal portfolio website. This site will update with new skills. <br> <br> Connect with me over socials!</p> <br>
+                <p>Thank you for visiting my personal portfolio website. This site will update with new skills. <br>
+                    <br> Connect with me over socials!
+                </p> <br>
                 <h6> Special Thanks to Jigar Sable for <a href="https://github.com/jigar-sable">Inspiration!</a></h6>
             </div>
 
@@ -233,10 +288,14 @@
                 <p> <i class="fas fa-map-marked-alt"></i>Kentucky, USA</p>
                 <div class="share">
 
-                    <a href="https://www.linkedin.com/in/alykaa-salaah-493b3814a/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-                    <a href="https://www.linkedin.com/in/alykaa-salaah-493b3814a/" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-                    <a href="https://www.linkedin.com/in/alykaa-salaah-493b3814a/" class="fab fa-envelope" aria-label="Mail" target="_blank"></a>
-                    <a href="https://www.facebook.com/alykaa.salaah/" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/alykaa-salaah-493b3814a/" class="fab fa-linkedin"
+                        aria-label="LinkedIn" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/alykaa-salaah-493b3814a/" class="fab fa-github"
+                        aria-label="GitHub" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/alykaa-salaah-493b3814a/" class="fab fa-envelope"
+                        aria-label="Mail" target="_blank"></a>
+                    <a href="https://www.facebook.com/alykaa.salaah/" class="fab fa-facebook" aria-label="Facebook"
+                        target="_blank"></a>
                     <a href="https://wa.me/" class="fab fa-whatsapp" aria-label="WhatsApp" target="_blank"></a>
                 </div>
             </div>
